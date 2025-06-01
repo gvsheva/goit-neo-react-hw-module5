@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+.title {
+    font-size: 88px;
+    color: #343a40;
+    margin: 0;
+}
+
+.message {
+    font-size: 24px;
+    color: #6c757d;
+    margin: 20px 0;
+}
+
+.goHomeButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.goHomeButton:hover {
+    background-color: #0056b3;
+}

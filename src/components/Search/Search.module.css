@@ -1,0 +1,25 @@
+.searchform {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 600px;
+}
+
+.searchinput {
+    border: none;
+    outline: none;
+    padding: 10px;
+    flex: 1;
+    font-size: 16px;
+}
+
+.searchbutton {
+    background: transparent;
+    color: #ccc;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-right: 1px solid #ccc;
+}
